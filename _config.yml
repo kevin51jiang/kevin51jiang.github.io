@@ -52,7 +52,7 @@ skills:
   - name: twitter
   - name: windows8
 
-icon_size: 50 # font-size of icons in px
+icon_size: 85 # font-size of icons in px
 colored: colored # Leave blank for black and white icons
 
 project_button: Github
