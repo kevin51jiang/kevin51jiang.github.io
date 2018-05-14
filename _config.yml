@@ -11,7 +11,7 @@ parallax_image_two: assets/images/startup3.jpg
 
 project_one: "TSV4J"
 project_one_description: A good, solid, TSV editor.
-project_one_url: https://github.com/jameshamann/jekyll-material-theme
+project_one_url: https://github.com/kevin51jiang/TSV4J
 project_one_icon: location_on
 
 project_two: Second Project
