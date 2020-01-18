@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
+
+body {
+  margin: 0;
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 4.5em;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color:#373737;
+  outline: none;
+  text-align: center;
+}
+
+p {
+  font-size: 1.5em;
+  color: #373737;
+  margin-bottom: 0.1em;
+  text-align: center;
+}
+
+#landing-container {
+  margin:auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 86vw;
+  height: 100vh;
+}
+
+#eyes {
+  animation-name: eyes-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: 3;
+  transform-origin: 70% 70%;
+  display: inline-block;
+  text-indent: 0 !important;
+}
+
+@keyframes eyes-animation {
+  0% {
+    transform: scale(1)
+  }
+
+  15% {
+    transform: scale(1.1)
+  }
+
+  30% {
+    transform: scale(0.9)
+  }
+
+  100% {
+    transform: scale(1)
+  }
+}
+
+#uwaterloo {
+  font-weight: 500;
+  border-bottom: 2px solid #ffd74f;
+}
+
+#devpost {
+  font-weight: 500;
+  border-bottom: 2px solid #3acce6;
+}
+
+
+#socials {
+  margin-top: 2em;
+}
+
+.fas,
+.fab {
+  font-size: 1.3em !important;
+  color: #848484;
+  margin-right: 2em;
+  transition: color 0.3s ease;
+}
+
+.fas:hover,
+.fab:hover {
+  color: #373737;
+}
+
+.fa-youtube {
+  margin-right:  0;
+}
+
+#resume {
+  font-size: 1.2em;
+  color: #373737;
+  margin-top: 8em;
+  border-bottom: 1px solid #e0e0e0;
+  transition: border-color 0.3s ease;
+}
+
+#resume:hover {
+  border-bottom: 1px solid #373737;
+}
