@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 body {
   margin: 0;
-  font-family: "Josefin Sans";
+  font-family: "Poppins", sans-serif;
 }
 
 h1 {
@@ -20,7 +20,7 @@ a {
 }
 
 p {
-  font-size: 1.7em;
+  font-size: 1.6em;
   color: #373737;
   margin-bottom: 0.1em;
   text-align: center;
@@ -64,12 +64,12 @@ p {
 }
 
 #uwaterloo {
-  font-weight: 550;
+  font-weight: 500;
   border-bottom: 2px solid #ffd74f;
 }
 
 #devpost {
-  font-weight: 550;
+  font-weight: 500;
   border-bottom: 2px solid #3acce6;
 }
 
