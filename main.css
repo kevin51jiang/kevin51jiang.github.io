@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700');
 
 body {
   margin: 0;
-  font-family: "Montserrat";
+  font-family: "Josefin Sans";
 }
 
 h1 {
@@ -20,7 +20,7 @@ a {
 }
 
 p {
-  font-size: 1.5em;
+  font-size: 1.7em;
   color: #373737;
   margin-bottom: 0.1em;
   text-align: center;
@@ -64,12 +64,12 @@ p {
 }
 
 #uwaterloo {
-  font-weight: 500;
+  font-weight: 600;
   border-bottom: 2px solid #ffd74f;
 }
 
 #devpost {
-  font-weight: 500;
+  font-weight: 600;
   border-bottom: 2px solid #3acce6;
 }
 
@@ -105,4 +105,8 @@ p {
 
 #resume:hover {
   border-bottom: 1px solid #373737;
+}
+
+.buffer {
+  padding-bottom: 2em;
 }
