@@ -33,7 +33,7 @@ p {
   align-items: center;
   flex-direction: column;
   width: 86vw;
-  height: 100vh;
+  height: 92vh;
 }
 
 #eyes {
@@ -64,12 +64,12 @@ p {
 }
 
 #uwaterloo {
-  font-weight: 600;
+  font-weight: 550;
   border-bottom: 2px solid #ffd74f;
 }
 
 #devpost {
-  font-weight: 600;
+  font-weight: 550;
   border-bottom: 2px solid #3acce6;
 }
 
