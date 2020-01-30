@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
 
 body {
   margin: 0;
@@ -14,7 +14,7 @@ h1 {
 
 a {
   text-decoration: none;
-  color:#373737;
+  color: #373737;
   outline: none;
   text-align: center;
 }
@@ -27,7 +27,7 @@ p {
 }
 
 #landing-container {
-  margin:auto;
+  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,19 +47,19 @@ p {
 
 @keyframes eyes-animation {
   0% {
-    transform: scale(1)
+    transform: scale(1);
   }
 
   15% {
-    transform: scale(1.1)
+    transform: scale(1.1);
   }
 
   30% {
-    transform: scale(0.9)
+    transform: scale(0.9);
   }
 
   100% {
-    transform: scale(1)
+    transform: scale(1);
   }
 }
 
@@ -72,7 +72,6 @@ p {
   font-weight: 500;
   border-bottom: 2px solid #3acce6;
 }
-
 
 #socials {
   margin-top: 2em;
@@ -92,21 +91,35 @@ p {
 }
 
 .fa-linkedin-in {
-  margin-right:  0;
+  margin-right: 0;
 }
 
 #resume {
   font-size: 1.2em;
   color: #373737;
-  margin-top: 8em;
-  border-bottom: 1px solid #e0e0e0;
   transition: border-color 0.3s ease;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 #resume:hover {
   border-bottom: 1px solid #373737;
 }
 
-.buffer {
-  padding-bottom: 2em;
+#resume-desc {
+  font-size: 1.1em;
 }
+
+.byline {
+  /* margin:auto; */
+  text-align: center;
+  margin-top: 8em;
+}
+
+.blank {
+  background-color: white;
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+  border-bottom: 2px solid #373737;
+}
+
+
