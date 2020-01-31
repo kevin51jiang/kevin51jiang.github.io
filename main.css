@@ -9,7 +9,7 @@
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
-  color: var(--title-color);
+  color: var(--deemphasized);
   background-color: black;
 }
 
@@ -32,7 +32,7 @@ a {
 
 p {
   font-size: 1.6em;
-  color: var(--title-color);
+  /* color: var(--title-color); */
   margin-bottom: 0.1em;
   text-align: center;
 }
@@ -136,12 +136,3 @@ p {
   text-align: center;
   margin-top: 8em;
 }
-
-/* .blank {
-  background-color: #1a2c47;
-  padding-left: 0.3em;
-  padding-right: 0.3em;
-  border-bottom: 2px solid var(--deemphasized);
-} */
-
-
