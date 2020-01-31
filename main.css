@@ -1,8 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
 
+:root {
+  --deemphasized: silver;
+  --title-color: ghostwhite;
+}
+
+
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
+  color: var(--title-color);
+  background-color: black;
 }
 
 h1 {
@@ -10,18 +18,21 @@ h1 {
   font-size: 4.5em;
   margin-bottom: 0.5em;
   text-align: center;
+  color: var(--title-color); 
 }
 
 a {
   text-decoration: none;
-  color: #373737;
+  color: var(--deemphasized);
   outline: none;
   text-align: center;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
 }
 
 p {
   font-size: 1.6em;
-  color: #373737;
+  color: var(--title-color);
   margin-bottom: 0.1em;
   text-align: center;
 }
@@ -68,9 +79,19 @@ p {
   border-bottom: 2px solid #ffd74f;
 }
 
+#uwaterloo:hover {
+  background-color: #927b2d;
+  color: var(--title-color);
+}
+
 #devpost {
   font-weight: 500;
   border-bottom: 2px solid #3acce6;
+}
+
+#devpost:hover {
+  background-color: #206470;
+  color: var(--title-color);
 }
 
 #socials {
@@ -87,7 +108,7 @@ p {
 
 .fas:hover,
 .fab:hover {
-  color: #373737;
+  color: var(--title-color);
 }
 
 .fa-linkedin-in {
@@ -96,30 +117,31 @@ p {
 
 #resume {
   font-size: 1.2em;
-  color: #373737;
+  color: var(--deemphasized);
   transition: border-color 0.3s ease;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid var(--deemphasized);
 }
 
 #resume:hover {
-  border-bottom: 1px solid #373737;
+  color: var(--title-color);
+  border-bottom: 1px solid var(--title-color);
 }
 
 #resume-desc {
   font-size: 1.1em;
+  color: var(--deemphasized);
 }
 
 .byline {
-  /* margin:auto; */
   text-align: center;
   margin-top: 8em;
 }
 
 .blank {
-  background-color: white;
-  margin-left: 0.3em;
-  margin-right: 0.3em;
-  border-bottom: 2px solid #373737;
+  background-color: #1a2c47;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  border-bottom: 2px solid var(--deemphasized);
 }
 
 
