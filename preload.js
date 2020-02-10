@@ -5,6 +5,10 @@ const BYLINES = [
     "hey look, it's a ",
     "take a break. take a",
     "you've got mail! it's a",
+    "garnish with fresh parsley, chives, or thyme leaves",
+    "season both sides with paprika, salt, and pepper",
+    "owo.",
+    "uwu.",
 ];
 
 const DESC = [ 
