@@ -5,12 +5,39 @@
   --title-color: ghostwhite;
 }
 
+
+
+
+
+@media only screen and (max-width: 720px) {
+  body {
+    padding-top: 30%;
+    padding-bottom:10%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    padding-top: 50%;
+    padding-bottom:10%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  body {
+    padding-top: 100%;
+    padding-bottom:10%;
+  }
+}
+
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
   color: var(--deemphasized);
   background-color: black;
 }
+
+
 
 h1 {
   font-weight: 700;
@@ -19,6 +46,8 @@ h1 {
   text-align: center;
   color: var(--title-color); 
 }
+
+
 
 a {
   text-decoration: none;
@@ -44,6 +73,7 @@ p {
   width: 86vw;
   height: 92vh;
 }
+
 
 #eyes {
   animation-name: eyes-animation;
