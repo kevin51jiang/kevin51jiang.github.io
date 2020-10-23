@@ -37,7 +37,7 @@ const Footer = ({ className, topOuterDivider, topDivider, ...props }) => {
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             <div className="footer-copyright">
-              Made by Cruip, modified by Kevin. All right reserved
+              © Kevin Jiang. All right reserved
             </div>
           </div>
         </div>

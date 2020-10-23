@@ -74,7 +74,7 @@ const FeaturesSplit = ({
                     If the term ends up being:
                     <ul>
                       <li>
-                        <i>online</i>, the helping to advocate with profs and
+                        <i>online</i>, then helping to advocate with profs and
                         departments to create better courses in conditions that
                         treat students better.
                       </li>
