@@ -68,13 +68,13 @@ const Hero = ({
               <span className="text-color-primary">VP Academic</span>
             </h1>
             <div className="container-xs">
-              <p
+              {/* TODO: Maybe consider re adding a byline? */}
+              {/* <p
                 className="m-0 mb-32 reveal-from-bottom"
                 data-reveal-delay="400"
               >
-                I don't know some witty thing should be here *insert witty
-                phrase here*
-              </p>
+               facing the elephant in the room
+              </p> */}
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   <Button

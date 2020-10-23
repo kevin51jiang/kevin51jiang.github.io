@@ -4,6 +4,7 @@ import FlipNumbers from "react-flip-numbers";
 import { firebaseConfig } from "../../utils/config";
 
 firebase.initializeApp(firebaseConfig);
+firebase.analytics();
 
 const BigButton = (props) => {
   const [num, setNum] = useState(1234);
@@ -46,7 +47,7 @@ const BigButton = (props) => {
         background="#6163ff"
         width={80}
         height={80}
-        numberStyle={{fontSize: '56px'}}
+        numberStyle={{ fontSize: "56px" }}
         numbers={`${num}`}
       />
     </div>

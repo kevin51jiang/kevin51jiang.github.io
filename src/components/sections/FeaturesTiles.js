@@ -44,7 +44,7 @@ const FeaturesTiles = ({
 
   const sectionHeader = {
     title: "Who am I?",
-    paragraph: "Other than being a professional monkey, of course.",
+    paragraph: "Other than being a professional monkey, I am...",
   };
 
   return (
@@ -68,9 +68,8 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">Student</h4>
                   <p className="m-0 text-sm">
-                    2A Memegement Engineering. Helping to conduct surveys for
-                    the final class profile (which is the real reason we're all
-                    here anyways).
+                    2A Memegement Engineering. I've been helping to conduct
+                    surveys for the final class profile. 
                   </p>
                 </div>
               </div>
@@ -92,11 +91,11 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">Accidental Academic Rep</h4>
+                  <h4 className="mt-0 mb-8">Academic Rep x2</h4>
                   <p className="m-0 text-sm">
-                    Even though it was accidental (twice), I still represented
+                    Even though it was accidental (both times), I still represented
                     and advocated to the best of my ability to ensure the best
-                    experience for everyone.
+                    thing for everyone.
                   </p>
                 </div>
               </div>

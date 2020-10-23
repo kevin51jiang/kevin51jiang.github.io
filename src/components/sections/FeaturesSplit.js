@@ -71,15 +71,20 @@ const FeaturesSplit = ({
                 <h3 className="mt-0 mb-12">COVID-19 Recovery</h3>
                 <p className="m-0">
                   <div>
-                    If the term ends up being <i>online</i>, the helping to
-                    advocate with profs and departments to create better courses
-                    in conditions that treat students better.
+                    If the term ends up being:
+                    <ul>
+                      <li>
+                        <i>online</i>, the helping to advocate with profs and
+                        departments to create better courses in conditions that
+                        treat students better.
+                      </li>
+                      <li>
+                        <i>offline</i>, then the transition to safe in person
+                        activities will require lots of attention.
+                      </li>
+                    </ul>
                   </div>
-                  <div>
-                    If the term ends up being <i>offline</i>, then the
-                    transition to safe in person activities will require lots of
-                    attention.
-                  </div>
+                  <div></div>
                   <div>
                     I will make sure that in either situation the transition
                     will be a smooth as possible, allowing you to focus on what
@@ -114,8 +119,10 @@ const FeaturesSplit = ({
                 <p className="m-0">
                   First years feel like they've just been dropped in the deep
                   end without support and robbed of their first-year experience.
-                  There needs to be at least enough support to ensure that they
-                  can actually float.
+                  While there's a certain amount of difficulty needed for
+                  Mansour to have his fun, we need to ensure that there are
+                  appropriate supports in place so they can actually survive and
+                  thrive during their later years.
                 </p>
               </div>
               <div
