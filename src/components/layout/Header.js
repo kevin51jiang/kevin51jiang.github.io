@@ -3,6 +3,8 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 import { Link } from "react-router-dom";
 import Logo from "./partials/Logo";
+import countdownRenderer from "../sections/CountdownRenderer";
+import Countdown from "react-countdown";
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -113,7 +115,11 @@ const Header = ({
                           className="button button-primary button-wide-mobile button-sm"
                           onClick={closeMenu}
                         >
-                          Vote
+                          <span style={{marginRight: '4px'}}>Vote in: </span>
+                        
+                          <Countdown date={1604030400000}>
+                            <span>NOW!</span>
+                          </Countdown>
                         </a>
                       </li>
                     </ul>

@@ -6,6 +6,8 @@ import Button from "../elements/Button";
 import Image from "../elements/Image";
 import Modal from "../elements/Modal";
 import Countdown from "react-countdown";
+import BigButton from "./BigButton";
+import countdownRenderer from './CountdownRenderer';
 
 const propTypes = {
   ...SectionProps.types,
@@ -15,30 +17,6 @@ const defaultProps = {
   ...SectionProps.defaults,
 };
 
-const countdownRender = ({days, hours, minutes, seconds, completed , formatted}) => {
-  if (completed) {
-    // Render a completed state
-
-    return (
-      <Button
-        tag="a"
-        color="dark"
-        wideMobile
-        href="https://vote.wusa.ca/ballots/210"
-      >
-        Time to vote! 🎉
-      </Button>
-    );
-  } else {
-    // Render a countdown
-    return (
-      <Button color="dark" wideMobile disabled>
-        🔒 {formatted.days}:{formatted.hours}:{formatted.minutes}:
-        {formatted.seconds}
-      </Button>
-    );
-  }
-};
 
 const Hero = ({
   className,
@@ -108,7 +86,10 @@ const Hero = ({
                     Get started
                   </Button>
 
-                  <Countdown date={1604030400000} renderer={countdownRender} />
+                  <Countdown
+                    date={1604030400000}
+                    renderer={countdownRenderer}
+                  />
                 </ButtonGroup>
               </div>
             </div>
@@ -117,14 +98,17 @@ const Hero = ({
             className="hero-figure reveal-from-bottom illustration-element-01"
             data-reveal-value="20px"
             data-reveal-delay="800"
+            id="big-button"
           >
-            <Image
+            <div>Practice your skills for the big day with a live button.</div>
+            <BigButton />
+            {/* <Image
               className="has-shadow"
               src={require("./../../assets/images/video-placeholder.jpg")}
               alt="Hero"
               width={896}
               height={504}
-            />
+            /> */}
           </div>
           {/* <Modal
             id="video-modal"

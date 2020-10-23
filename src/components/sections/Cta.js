@@ -53,7 +53,7 @@ const Cta = ({
               tag="a"
               color="dark"
               wideMobile
-              href="#"
+              href="#big-button"
             >
               Here we go again
             </Button>
