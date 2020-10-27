@@ -5,10 +5,8 @@
 /*--------------------------------------------------------------
 # Variables, functions and mixins
 --------------------------------------------------------------*/
-@import "core/abstracts/functions",
-		"settings/settings",
-        "core/abstracts/mixins",
-        'core/abstracts/include-media';
+@import "core/abstracts/functions", "settings/settings", "core/abstracts/mixins",
+  "core/abstracts/include-media";
 
 /*--------------------------------------------------------------
 # Normalize
@@ -127,33 +125,43 @@
 --------------------------------------------------------------*/
 @import "core/base/helpers";
 
-
 html {
   scroll-behavior: smooth;
 }
 
+input[type="text"],
+input[type="button"] {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+
 .btn-juicy {
+  -webkit-appearance: none;
+  appearance: none;
   cursor: pointer;
+  opacity: 1;
   font-size: 54px;
   height: 200px;
   width: 200px;
   border: none;
   border-radius: 25%;
-	box-shadow: 5px 10px#aaa;
+  box-shadow: 5px 10px#aaa;
   transition: 0.2s;
-  
-
+  align-self: center;
+  text-align: center;
+  text-align: -webkit-center;
+  background-color: rgb(239, 239, 239);
   color: #33363a;
+  fill: #33363a;
   margin: 1rem;
   margin-bottom: 2rem;
 }
 .btn-juicy:hover:active {
-	transition: 0.1s;
-	box-shadow: 1px 2px#444;
-	transform: translate(5px, 10px);
+  transition: 0.1s;
+  box-shadow: 1px 2px#444;
+  transform: translate(5px, 10px);
 }
 .btn-juicy:hover {
-	box-shadow: 6px 12px#b4b4b4;
-	transform: translate(-1px, -2px);
+  box-shadow: 6px 12px#b4b4b4;
+  transform: translate(-1px, -2px);
 }
-
