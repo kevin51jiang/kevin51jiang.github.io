@@ -14,7 +14,8 @@
     "react-flip-numbers": "^3.0.5",
     "react-ga": "^2.7.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "^3.4.1"
+    "react-scripts": "^3.4.1",
+    "react-use-audio-player": "^1.2.2"
   },
   "repository": {
     "type": "git",

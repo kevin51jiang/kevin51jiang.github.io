@@ -7,7 +7,8 @@ import Image from "../elements/Image";
 import Modal from "../elements/Modal";
 import Countdown from "react-countdown";
 import BigButton from "./BigButton";
-import countdownRenderer from './CountdownRenderer';
+import countdownRenderer from "./CountdownRenderer";
+import { AudioPlayerProvider } from "react-use-audio-player";
 
 const propTypes = {
   ...SectionProps.types,
@@ -16,7 +17,6 @@ const propTypes = {
 const defaultProps = {
   ...SectionProps.defaults,
 };
-
 
 const Hero = ({
   className,
@@ -101,7 +101,9 @@ const Hero = ({
             id="big-button"
           >
             <div>Practice your skills for the big day with a live button.</div>
-            <BigButton />
+            <AudioPlayerProvider>
+              <BigButton />
+            </AudioPlayerProvider>
             {/* <Image
               className="has-shadow"
               src={require("./../../assets/images/video-placeholder.jpg")}
