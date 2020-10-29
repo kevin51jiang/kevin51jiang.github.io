@@ -110,17 +110,16 @@ const Header = ({
                   {!hideSignin && (
                     <ul className="list-reset header-nav-right">
                       <li>
-                        <a
-                          href="https://vote.wusa.ca/ballots/210"
-                          className="button button-primary button-wide-mobile button-sm"
-                          onClick={closeMenu}
-                        >
-                          <span style={{marginRight: '4px'}}>Vote in: </span>
-                        
-                          <Countdown date={1604030400000}>
-                            <span>NOW!</span>
-                          </Countdown>
-                        </a>
+                        T-
+                        <Countdown date={1604030400000}>
+                          <a
+                            href="https://vote.wusa.ca/ballots/210"
+                            className="button button-primary button-wide-mobile button-sm"
+                            onClick={closeMenu}
+                          >
+                            VOTE NOW!!
+                          </a>
+                        </Countdown>
                       </li>
                     </ul>
                   )}

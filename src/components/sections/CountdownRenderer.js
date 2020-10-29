@@ -19,8 +19,7 @@ const countdownRender = ({ formatted, completed }) => {
     // Render a countdown
     return (
       <Button color="dark" wideMobile disabled>
-        🔒 {formatted.days}:{formatted.hours}:{formatted.minutes}:
-        {formatted.seconds}
+        🔒 {formatted.hours}:{formatted.minutes}:{formatted.seconds}
       </Button>
     );
   }

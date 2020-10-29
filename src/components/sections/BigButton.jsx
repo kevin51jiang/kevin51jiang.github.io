@@ -56,12 +56,12 @@ const BigButton = (props) => {
   // plays a bunch of sounds depending on number
   useEffect(() => {
     if (soundRef?.current) {
-      if (num % 100 === 0) {
-        soundRef.current[1].play();
-      } else if (num % 500 === 0) {
-        soundRef.current[2].play();
-      } else if (num % 1000 === 0) {
+      if (num % 500 === 0) {
         soundRef.current[3].play();
+      } else if (num % 100 === 0) {
+        soundRef.current[2].play();
+      } else if (num % 50 === 0) {
+        soundRef.current[1].play();
       }
     }
   }, [num]);
@@ -70,6 +70,7 @@ const BigButton = (props) => {
     if (ready) {
       play();
     }
+
     setNum(num + 1);
     firebase
       .database()
