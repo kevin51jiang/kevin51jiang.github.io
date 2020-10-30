@@ -110,10 +110,9 @@ const Header = ({
                   {!hideSignin && (
                     <ul className="list-reset header-nav-right">
                       <li>
-                        T-
                         <Countdown date={1604030400000}>
                           <a
-                            href="https://vote.wusa.ca/ballots/274"
+                            href="https://vote.wusa.ca/ballot/274"
                             className="button button-primary button-wide-mobile button-sm"
                             onClick={closeMenu}
                           >

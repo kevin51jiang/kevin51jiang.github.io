@@ -8,9 +8,9 @@ const countdownRender = ({ formatted, completed }) => {
     return (
       <Button
         tag="a"
-        color="dark"
+        color="white"
         wideMobile
-        href="https://vote.wusa.ca/ballots/274"
+        href="https://vote.wusa.ca/ballot/274"
       >
         Time to vote! 🎉
       </Button>
