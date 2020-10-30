@@ -10,7 +10,7 @@ const countdownRender = ({ formatted, completed }) => {
         tag="a"
         color="dark"
         wideMobile
-        href="https://vote.wusa.ca/ballots/210"
+        href="https://vote.wusa.ca/ballots/274"
       >
         Time to vote! 🎉
       </Button>
