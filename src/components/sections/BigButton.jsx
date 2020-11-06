@@ -30,7 +30,6 @@ const BigButton = (props) => {
     format: "mp3",
     autoplay: false,
   });
-  const [isFirstClick, setIsFirstClick] = useState(true);
   const soundRef = useRef();
 
   useEffect(() => {
@@ -70,16 +69,6 @@ const BigButton = (props) => {
   const onClick = () => {
     if (ready) {
       play();
-    }
-
-    if (isFirstClick) {
-      const newWindow = window.open(
-        "https://vote.wusa.ca/ballot/274",
-        "_blank",
-        "noopener,noreferrer"
-      );
-      if (newWindow) newWindow.opener = null;
-      setIsFirstClick(false);
     }
 
     setNum(num + 1);
